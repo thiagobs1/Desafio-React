@@ -1,0 +1,159 @@
+.main-wrapper {
+  position: relative;
+}
+
+.closed {
+  display: none;
+}
+
+.institucional-image {
+  margin: 29px 0 0 128px;
+}
+
+.institucional-text {
+  font-size: 24px;
+  letter-spacing: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 41px;
+  margin-top: 80px;
+}
+
+.Main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 132px 170px 132px;
+}
+
+.main-content-button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 270px;
+  height: 39px;
+  outline: 0;
+  background-color: transparent;
+  border: 0;
+  border-right: 1px solid var(--gray-100);
+  cursor: pointer;
+  color: var(--gray-200);
+}
+
+.main-content-button:hover {
+  background-color: var(--blue-100);
+  color: var(--white);
+}
+
+.main-content-button.active {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.infos-pages {
+  color: var(--gray-200);
+  font-size: 13px;
+}
+
+.opened {
+  margin-left: 32px;
+  height: 265px;
+  overflow-y: auto;
+}
+
+.c-opened {
+  margin-left: 98px;
+}
+
+.opened::-webkit-scrollbar {
+  width: 6px;
+}
+
+.opened::-webkit-scrollbar-track {
+  background-color: var(--gray-100);
+}
+
+.opened::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.buttons-page {
+  position: fixed;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  cursor: pointer;
+}
+
+.w-button {
+  right: 0;
+  top: 68%;
+  z-index: 8;
+}
+
+.bt-button {
+  right: 0;
+  top: 75%;
+  z-index: 8;
+}
+
+.bt-button.valid {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .main-content {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-content-button {
+    border: 0;
+    margin-right: 0;
+  }
+
+  .main-buttons {
+    border: 0;
+  }
+
+  .w-button {
+    right: 20px;
+  }
+
+  .bt-button {
+    right: 20px;
+  }
+
+  .opened {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .c-opened {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

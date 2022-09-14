@@ -1,0 +1,143 @@
+.footer-links-wrapper {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.footer-links h2 {
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin: 0 0 12px 0;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.footer-links-content {
+  margin-right: 80px;
+}
+
+.diferent-a {
+  text-decoration: underline !important;
+}
+
+.strong-p {
+  font-weight: 500;
+  margin: 0 0 12px 0;
+  font-size: 12px;
+}
+
+.weak-p {
+  margin: 0 0 12px 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer-links-contats img {
+  margin-right: 10px;
+}
+
+.footer-links-contats p {
+  margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-links-wrapper {
+    display: none;
+  }
+
+  .hiddle-content {
+    display: none;
+  }
+
+  .footer-links h2 {
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .footer-links a {
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .hiddle-content.opened {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hiddle-content.opened a {
+    margin-bottom: 20px;
+  }
+
+  .footer-mobile-button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 24px 0 24px 28px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .footer-mobile-button img {
+    position: absolute;
+    right: 70px;
+  }
+
+  .footer-mobile-button:active img {
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .links {
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .footer-links-mobile a {
+    text-decoration: none;
+  }
+
+  .footer-links-content {
+    margin-bottom: 20px;
+  }
+
+  .footer-links-contats {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer-links-mobile {
+    display: none;
+  }
+}

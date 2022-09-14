@@ -1,0 +1,109 @@
+.footer-newsletter {
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.footer-newsletter h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-100);
+  margin: 0 220px 0 0;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.footer-form input {
+  width: 342px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.footer-form input::placeholder {
+  padding-left: 10px;
+  color: var(--gray-100);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.footer-form button {
+  width: 126px;
+  height: 42px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  border: 0;
+  outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-newsletter {
+    display: none;
+  }
+
+  .footer-newsletter-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--gray-100);
+    border-top: 1px solid var(--gray-100);
+  }
+
+  .footer-form-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102px;
+  }
+  .footer-newsletter-mobile h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--black-100);
+    margin: 0 60px 12px 0;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    height: 16px;
+  }
+
+  .footer-form-mobile input {
+    width: 316px;
+    height: 44px;
+    margin-bottom: 12px;
+  }
+
+  .footer-form-mobile input::placeholder {
+    padding-left: 10px;
+    color: var(--gray-100);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+
+  .footer-form-mobile button {
+    width: 326px;
+    height: 50px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+    border: 0;
+    outline: 0;
+
+    margin-bottom: 102px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .footer-newsletter-mobile {
+    display: none;
+  }
+}
