@@ -2,7 +2,7 @@
   "name": "desafio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thiagobs1.github.io/Desafio-React",
+  "homepage": "https://thiagobs1.github.io/Desafio-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
